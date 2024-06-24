@@ -44,7 +44,7 @@ export default function CharacterSearch() {
             value={charName}
             id="pesquisa"
             onChange={handleInputChar}
-            placeholder="Digite o nome de um personagem"
+            placeholder="Pesquise um personagem"
           />
           <button onClick={fetchData}>Buscar</button>
         </div>
